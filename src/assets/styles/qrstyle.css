@@ -1,0 +1,21 @@
+* {
+    margin: 0 auto;
+}
+
+body{
+    background-color: #D7e1ee;
+}
+
+.container {
+    max-width: 25%;
+    background-color: white;
+    border-radius: 5%;
+}
+
+img{
+    border-radius: 5%;
+}
+
+p{
+    color: slategray;
+}
