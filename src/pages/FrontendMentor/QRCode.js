@@ -7,8 +7,8 @@ export default function QRCodeRender(){
         <div>
             <div className="container">
                 <img src={require('../../assets/images/frontendmentor/image-qr-code.png')} alt='QR Code for Frontend Mentor' />
-                <h4>Improve your front-end skills by building projects</h4>
-                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+                <h3 className='text-center pt-7 text-2xl font-bold'>Improve your front-end skills by building projects </h3>
+                <p className='text-center py-5'>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
             </div>
         </div>
     )
