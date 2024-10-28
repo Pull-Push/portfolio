@@ -11,7 +11,7 @@ export default function Landing() {
                         <a href="https://github.com/Pull-Push">github</a>
                         <a href="https://www.linkedin.com/in/jeffrey-sokol/">linkedin</a>
                         {/* <a href="/html/projects.html">projects</a> */}
-                        <a href="../assets/docs/JEFFREY_SOKOL_RESUME.pdf.pdf" download>resume</a>
+                        <a href="../assets/docs/JEFFREY_SOKOL_RESUME.pdf" download>resume</a>
                     </div>
             </div>
         </div>
