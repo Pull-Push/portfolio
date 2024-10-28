@@ -7,11 +7,8 @@ body{
 }
 
 .container {
-    max-width: 25%;
     background-color: white;
     border-radius: 5%;
-    margin-top: 10%;
-    padding: 15px;
 }
 
 img{
