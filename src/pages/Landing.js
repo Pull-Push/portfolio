@@ -1,6 +1,5 @@
 import React from 'react'
 import '../assets/styles/landingstyle.css'
-import { Link } from 'react-router-dom'
 
 
 export default function Landing() {
@@ -12,7 +11,7 @@ export default function Landing() {
                         <a href="https://github.com/Pull-Push">github</a>
                         <a href="https://www.linkedin.com/in/jeffrey-sokol/">linkedin</a>
                         {/* <a href="/html/projects.html">projects</a> */}
-                        <Link to="../../public/docs/JEFFREY_SOKOL_RESUME.pdf" target='_blank' download>resume</Link>
+                        <a href="https://jeffreyscottsokol.com/docs/JEFFREY_SOKOL_102024.pdf" download>resume</a>
                     </div>
             </div>
         </div>
