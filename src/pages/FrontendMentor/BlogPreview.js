@@ -4,7 +4,7 @@ import BlogLogo  from '../../assets/images/frontendmentor/bloglogo';
 export default function BlogCardRender() {
     return (
         <div className='blog-component grid justify-items-center content-center'>
-            <div className="card bg-white p-5 rounded-2xl w-5/6 justify-items-center max-w-sm border-2 border-black">
+            <div className="card bg-white p-5 rounded-2xl w-5/6 justify-items-center max-w-sm border-2 border-black min-w-min">
                 <BlogLogo />
                 <div className='justify-items-left'>
                 <div className='hover:bg-yellow-400 w-fit px-3.5'>
