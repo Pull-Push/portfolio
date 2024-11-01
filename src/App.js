@@ -4,9 +4,6 @@ import QRCodeRender from './pages/FrontendMentor/QRCode';
 import Landing from './pages/Landing';
 import BlogCardRender from './pages/FrontendMentor/BlogPreview';
 
-// WHEN LANDING PAGE IS IMPORTED, ALL CSS IS THROWN OFF. FIND OUT WHY CSS INHERITANCE IS BROKEN
-
-
 function App() {
   return (
     <BrowserRouter>
