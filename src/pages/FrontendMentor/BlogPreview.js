@@ -4,16 +4,18 @@ import BlogLogo  from '../../assets/images/frontendmentor/bloglogo';
 export default function BlogCardRender() {
     return (
         <div className='blog-component grid justify-items-center content-center'>
-            <div className="card bg-white p-3.5 rounded-2xl w-5/6 justify-items-center max-w-sm border-2 border-black">
+            <div className="card bg-white p-5 rounded-2xl w-5/6 justify-items-center max-w-sm border-2 border-black">
                 <BlogLogo />
                 <div className='justify-items-left'>
-                <p>Learning</p>
-                <p>Publshed 21 Dec 2023</p>
-                <p>HTML & CSS foundations</p>
-                <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
-                <div className="lower">
-                    <img src={require("../../assets/images/frontendmentor/image-avatar.webp")} alt="" className="avatar" />
-                    <p>Greg Hooper</p>
+                <div className='hover:bg-yellow-400 w-fit px-3.5'>
+                    <p className='text-black font-bold my-3.5'>Learning</p>
+                </div>
+                <p className='text-black text-sm font-bold mb-3.5'>Publshed 21 Dec 2023</p>
+                <p className='text-black text-xl font-extrabold mb-3.5'>HTML & CSS foundations</p>
+                <p className='mb-5'>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+                <div className="flex justify-items-center content-end">
+                    <img src={require("../../assets/images/frontendmentor/image-avatar.webp")} alt="" className="avatar w-1/12 mr-3.5" />
+                    <p className='text-black font-extrabold mt-1'>Greg Hooper</p>
                 </div>
                 </div>
             </div>
