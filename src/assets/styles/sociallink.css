@@ -29,3 +29,11 @@ The designs were created to the following widths:
 
 - Family: [Inter](https://fonts.google.com/specimen/Inter)
 - Weights: 400, 600, 700 */
+
+.social_link_component{
+        background-color: #141414;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100%;
+}
