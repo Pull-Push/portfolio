@@ -4,6 +4,7 @@ import QRCodeRender from './pages/FrontendMentor/QRCode';
 import Landing from './pages/Landing';
 import BlogCardRender from './pages/FrontendMentor/BlogPreview';
 import SocialLinkRender from './pages/FrontendMentor/SocialLinks';
+import RecipeRender from './pages/FrontendMentor/Recipe';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/frontendmentor/qr" element={<QRCodeRender />} />
         <Route path='/frontendmentor/blog' element={<BlogCardRender />} />
         <Route path='/frontendmentor/social' element={<SocialLinkRender />} />
+        <Route path='/frontendmentor/recipe' element={<RecipeRender />} />
 
       </Routes>
     </BrowserRouter>
