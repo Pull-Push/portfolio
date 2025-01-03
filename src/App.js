@@ -19,7 +19,7 @@ function App() {
         <Route path='/frontendmentor/blog' element={<BlogCardRender />} />
         <Route path='/frontendmentor/social' element={<SocialLinkRender />} />
         <Route path='/frontendmentor/recipe' element={<RecipeRender />} />
-
+        
       </Routes>
     </BrowserRouter>
   );
