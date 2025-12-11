@@ -11,8 +11,8 @@ export default function Landing() {
                         <a href="https://github.com/Pull-Push">github</a>
                         <a href="https://www.linkedin.com/in/jeffrey-sokol/">linkedin</a>
                         {/* <a href="/html/projects.html">projects</a> */}
-                        /* Resume uploaded 12/10/25*/
-                        <a href="https://5bdlesoe2rl0paez.public.blob.vercel-storage.com/JSOKOL_120925.pdf" download>resume</a>
+                        {/* Resume uploaded 12/10/25*/}
+                        <a href="https://5bdlesoe2rl0paez.public.blob.vercel-storage.com/JSOKOL_121025.pdf" download>resume</a>
                     </div>
             </div>
         </div>
