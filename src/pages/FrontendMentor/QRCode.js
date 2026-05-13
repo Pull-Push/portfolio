@@ -12,7 +12,7 @@ export default function QRCodeRender(){
             </div>
             <div className="attribution text-center my-4">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>- Coded by<a href="mailto: JeffSokolDev@gmail.com">Jeff Sokol - JeffSokolDev@gmail.com</a>
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer"> Frontend Mentor</a>- Coded by<a href="mailto: JeffSokolDev@gmail.com">Jeff Sokol - JeffSokolDev@gmail.com</a>
     </div>
         </div>
     )
