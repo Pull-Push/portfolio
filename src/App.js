@@ -8,7 +8,7 @@ import RecipeRender from './pages/FrontendMentor/Recipe';
 import ProjectRender from './pages/Projects';
 import NotFound from './pages/NotFound';
 import Privacy from './pages/Privacy'
-import ICRTC from './pages/ICRTC'
+import Terms from './pages/Terms'
 
 function App() {
   return (
@@ -21,8 +21,9 @@ function App() {
         <Route path='/frontendmentor/blog' element={<BlogCardRender />} />
         <Route path='/frontendmentor/social' element={<SocialLinkRender />} />
         <Route path='/frontendmentor/recipe' element={<RecipeRender />} />
-        <Route path='/ICRprivacy' element={<Privacy />} />
-        <Route patch='/ICRTC' element={<ICRTC />} />
+        <Route path='/privacy' element={<Privacy />} />
+        <Route path='/terms' element={<Terms />} />
+
         
       </Routes>
     </BrowserRouter>

@@ -270,7 +270,7 @@ const Section = ({ num, title, last, children }) => (
   </div>
 );
 
-export default function TermsAndConditions() {
+export default function Terms() {
   useEffect(() => {
     const link = document.createElement("link");
     link.rel = "stylesheet";

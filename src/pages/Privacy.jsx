@@ -287,7 +287,7 @@ const Section = ({ num, title, children }) => (
   </div>
 );
 
-export default function PrivacyPolicy() {
+export default function Privacy() {
   useEffect(() => {
     const link = document.createElement("link");
     link.rel = "stylesheet";
